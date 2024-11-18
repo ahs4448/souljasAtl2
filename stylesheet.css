@@ -1,0 +1,376 @@
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    border: 5px solid green;
+    background-color: white;
+
+}
+
+h1{
+    font-family: "Ubuntu", sans-serif;
+}
+
+header {
+    background: #4A90E2;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.logo {
+    height: 80px; /* Adjust the height as needed */
+    margin-right: 20px; /* Space between logo and tagline */
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-title {
+    color: white;
+  font-size: 3rem; /* Adjust text size */
+  font-weight: bold; /* Make the text bold */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional shadow */
+}
+
+
+.hero-banner {
+    position: relative;
+    text-align: center;
+}
+
+.hero-banner img {
+    width: 100%; /* This keeps it full-width */
+    height: 300px; /* Set a specific height */
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+}
+
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.cta-button {
+    background-color: #E94E77;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    padding: 0em;
+    background-color: #f9f9f9;
+}
+
+section {
+    margin-bottom: 2em;
+    font-family: "Ubuntu", sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    color: #fff;
+}
+
+/* slideshow */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 1275px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+
+
+/* parralax */
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: green; /* Example header background */
+    color: white;
+}
+
+.parallax {
+/*positioning details for the text*/
+  position: relative;  /* This allows positioning child elements if necessary */
+  background-image: url('your-image.jpg');  /* Your background image */
+  background-size: cover;  /* Cover the entire section */
+  background-position: center;  /* Center the image */
+  height: 100vh;  /* Full viewport height */
+  display: flex;  /* Use Flexbox for centering */
+  justify-content: center;  /* Center horizontally */
+  align-items: center;  /* Center vertically */
+  text-align: center;  /* Center text */
+
+    background-image: url('/Users/abdulhameed/Desktop/Souljas Atl/Slide11.png'); /* Replace with your image URL */
+    height: 500px; /* Height of the parallax section */
+    background-attachment: fixed; /* Fixed position for parallax effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire section */
+}
+
+.parallax2 {
+/*positioning details for the text*/
+  position: relative;  /* This allows positioning child elements if necessary */
+  background-image: url('your-image.jpg');  /* Your background image */
+  background-size: cover;  /* Cover the entire section */
+  background-position: center;  /* Center the image */
+  height: 100vh;  /* Full viewport height */
+  display: flex;  /* Use Flexbox for centering */
+  justify-content: center;  /* Center horizontally */
+  align-items: center;  /* Center vertically */
+  text-align: center;  /* Center text */
+
+    background-image: url('/Users/abdulhameed/Desktop/Souljas Atl rough draft/460707090_448662568202951_8654982801366155325_n.jpg'); /* Replace with your image URL */
+    height: 500px; /* Height of the parallax section */
+    background-attachment: fixed; /* Fixed position for parallax effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire section */
+}
+
+.cta-button {
+  background-color: #007BFF;  /* Button background color */
+  color: white;  /* Button text color */
+  border: none;  /* Remove border */
+  padding: 12px 24px;  /* Padding around the button */
+  font-size: 1.2rem;  /* Font size of the button text */
+  font-weight: bold;  /* Button text weight */
+  cursor: pointer;  /* Change cursor to pointer */
+  border-radius: 5px;  /* Rounded corners */
+  transition: background-color 0.3s;  /* Smooth transition for background change */
+}
+
+/* Hover effect for button */
+.cta-button:hover {
+  background-color: #0056b3;  /* Darken the background color on hover */
+}
+
+
+.content {
+
+     width: 100%; /* Make the section take the full width of its container */
+  max-width: 100%; /* Prevent section from exceeding the available width */
+  padding: 10px; /* Add some padding to avoid text touching the edges */
+  box-sizing: border-box; /* Ensure padding is included in the width calculation */
+  word-wrap: break-word; 
+
+    height: 400px; /* Content section height */
+    padding: 20px;
+    background-color: white; /* Light background for content */
+    text-align: center;
+    overflow-wrap: break-word; /* Ensure words break when they exceed the container width */
+ 
+
+  display: flex;               /* Use Flexbox to layout the content */
+  align-items: center;         /* Vertically center the content */
+  justify-content: space-between; /* Space between the image and text */
+  padding: 20px;               /* Optional padding around the section */
+  gap: 20px;      
+
+}
+
+.content p{
+ font-size: 5vw;
+}
+
+
+/* Style for the left column (image) */
+.left-column {
+    max-width: 80% !important; 
+    margin: 40px !important;  
+  flex: 1;                     /* Allow the image to take up available space */
+}
+
+.left-column img {
+  max-width: 79% !important;             /* Ensure the image doesn't overflow */
+  height: auto;                /* Maintain aspect ratio */
+  border-radius: 8px;          /* Optional: rounded corners for the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow around the image */
+}
+
+/* Style for the right column (paragraph) */
+.right-column {
+  flex: 1;                     /* Allow the paragraph to take up available space */
+  max-width: 600px;            /* Optional: limit the width of the paragraph */
+  text-align: left;            /* Align text to the left */
+}
+
+.right-column p {
+  font-size: 1.2rem;           /* Adjust font size */
+  line-height: 1.6;            /* Add space between lines of text */
+  color: #333;                 /* Dark text for readability */
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Footer background */
+    color: white;
+}
+
+
+
+
+
+/* General styles for the section */
+.content-section {
+  display: flex;              /* Use Flexbox for layout */
+  align-items: center;        /* Vertically center content */
+  justify-content: space-between; /* Space between image and text */
+  padding: 20px;              /* Padding around the section */
+  gap: 20px;                  /* Gap between left and right columns */
+  flex-wrap: wrap;            /* Allow content to wrap on smaller screens */
+}
+
+/* Left column styles (image) */
+.left-column {
+  flex: 1;                    /* Allow image to take up available space */
+}
+
+.left-column img {
+  max-width: 100%;            /* Make the image responsive */
+  height: auto;               /* Maintain aspect ratio */
+  border-radius: 8px;         /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow for the image */
+}
+
+/* Right column styles (paragraph) */
+.right-column {
+  flex: 1;                    /* Allow text to take up available space */
+  max-width: 600px;           /* Optional: limit the width of the paragraph */
+  text-align: left;           /* Align the text to the left */
+}
+
+.right-column p {
+  font-size: 1.2rem;          /* Adjust font size */
+  line-height: 1.6;           /* Line height for readability */
+  color: #333;                /* Text color */
+}
+
+/* Media Query for smaller screens (mobile) */
+@media (max-width: 768px) {
+
+
+     .content p {
+    font-size: 4rem; /* Set a fallback font-size for smaller screens */
+  }
+  .content-section {
+    flex-direction: column;   /* Stack columns vertically */
+    align-items: center;      /* Center content horizontally */
+    text-align: center;       /* Center the paragraph text */
+  }
+
+  .left-column {
+    margin-bottom: 20px;      /* Add space below the image */
+    width: 100%;              /* Make image container take full width */
+  }
+
+  .right-column {
+    width: 100%;              /* Make paragraph container take full width */
+    max-width: none;          /* Remove max-width restriction */
+  }
+
+  .right-column p {
+    font-size: 1rem;          /* Adjust font size for smaller screens */
+  }
+}
+
+/* Further adjustments for very small screens (e.g., mobile phones) */
+@media (max-width: 480px) {
+  .content-section {
+    padding: 10px;            /* Reduce padding on very small screens */
+  }
+
+  .right-column p {
+    font-size: 0.7rem;        /* Further adjust font size for mobile */
+  }
+}
+
+
+
+/*owl nav*/
