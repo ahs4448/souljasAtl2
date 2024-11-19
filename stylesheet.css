@@ -203,7 +203,7 @@ header {
   align-items: center;  /* Center vertically */
   text-align: center;  /* Center text */
 
-    background-image: url('/Users/abdulhameed/Desktop/Souljas Atl rough draft/460707090_448662568202951_8654982801366155325_n.jpg'); /* Replace with your image URL */
+    background-image: url('460707090_448662568202951_8654982801366155325_n.jpg'); /* Replace with your image URL */
     height: 500px; /* Height of the parallax section */
     background-attachment: fixed; /* Fixed position for parallax effect */
     background-position: center;
