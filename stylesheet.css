@@ -183,7 +183,7 @@ header {
   align-items: center;  /* Center vertically */
   text-align: center;  /* Center text */
 
-    background-image: url('/Users/abdulhameed/Desktop/Souljas Atl/Slide11.png'); /* Replace with your image URL */
+    background-image: url('Slide11.png'); /* Replace with your image URL */
     height: 500px; /* Height of the parallax section */
     background-attachment: fixed; /* Fixed position for parallax effect */
     background-position: center;
